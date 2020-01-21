@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgFragment2"
+            android:layout_width="375dp"
+            android:layout_height="375dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_undraw_task_2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTituloFragmentDos"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:text="Mejora tu productividad"
+            android:fontFamily="@font/poppinssemibold"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/tvDescripcionFragment2"
+            android:text="Mejora tu productividad, multiplica tus resultados..."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

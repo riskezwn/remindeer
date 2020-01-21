@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "993812016897",
+    "firebase_url": "https://remindeer-5b4dd.firebaseio.com",
+    "project_id": "remindeer-5b4dd",
+    "storage_bucket": "remindeer-5b4dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993812016897:android:4c8ba2d5d4e97aac573500",
+        "android_client_info": {
+          "package_name": "com.riske.remindeer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993812016897-ta4goooj9sn65qfodqpfe87al5cf7g3h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riske.remindeer",
+            "certificate_hash": "d616a9c6839c94aa86e2c1a28c6cc1cd3eef60a2"
+          }
+        },
+        {
+          "client_id": "993812016897-mjhdrc8eemvqkbeh7681dql9tpl35lc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZlmKA_dLZH392i9vzB3TlDY1fhuxtin0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993812016897-mjhdrc8eemvqkbeh7681dql9tpl35lc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:id="@+id/linearTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:fontFamily="@font/glaciarindifferenceregular"
+            android:id="@+id/tvHora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="7:00"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgTarea"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_svg_trabajo" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="@font/glacialindifferencebold"
+
+                android:id="@+id/tvTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trabajo"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/glaciarindifferenceregular"
+                android:id="@+id/tvDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="Ejemplo de descripción..."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/isDone"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|right"/>
+</com.google.android.material.card.MaterialCardView>

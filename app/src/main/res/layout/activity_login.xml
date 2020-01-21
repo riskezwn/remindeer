@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Welcome.LoginActivity">
+
+
+
+    <ImageView
+        android:id="@+id/ellipse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_ellipselogin"/>
+
+    <ImageView
+        android:id="@+id/deer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/ellipse"
+        app:layout_constraintTop_toTopOf="@+id/ellipse"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        android:src="@drawable/deerlogin"/>
+
+    <LinearLayout
+        android:id="@+id/register"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@font/poppinssemibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hey, ¿qué tal?"
+            android:textColor="@color/textColor"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:fontFamily="@font/poppinssemibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡Nos encanta tenerte de vuelta!"
+            android:textColor="@color/textColor"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/etPrincipal"
+            android:id="@+id/et_emailBOX"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/etPrincipal"
+            android:id="@+id/et_passwordBOX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            app:endIconMode="password_toggle">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        style="@style/btnPrincipal"
+        android:layout_width="340dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_marginBottom="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        android:text="Iniciar sesión"
+        />
+
+    <TextView
+        android:fontFamily="@font/poppinsmedium"
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        android:text="¿Has olvidado tu contraseña?"
+        android:textColor="@color/textColor"
+        android:textSize="15dp"
+        android:clickable="true" />
+
+    <ProgressBar
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:paddingBottom="10dp"
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:max="100"
+        android:visibility="invisible"
+        android:backgroundTint="@android:color/white"
+        android:indeterminateTint="@color/colorAccent"
+        android:layout_marginTop="-7dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

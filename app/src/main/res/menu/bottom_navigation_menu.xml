@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/fragments">
+        <!--<item
+            android:id="@+id/button_calendar"
+            android:icon="@drawable/ic_tasks"
+            android:iconTint="@color/colorSecundary"
+            android:title="Calendario"
+            app:showAsAction="always" />-->
+
+        <item
+            android:id="@+id/button_tasks"
+            android:icon="@drawable/ic_tasks"
+            android:iconTint="@color/colorSecundary"
+            android:title="Tareas"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/button_tasksDone"
+            android:icon="@drawable/ic_check_circle"
+            android:iconTint="@color/colorSecundary"
+            android:title="Tareas completadas"
+            app:showAsAction="always" />
+
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/profile">
+        <item
+            android:id="@+id/button_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:iconTint="@color/colorSecundary"
+            android:title="Perfil"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/footer_spacer_1"
+            android:checkable="false"
+            android:enabled="false"
+            android:orderInCategory="200"
+            android:title="" />
+        <item
+            android:id="@+id/footer_spacer_2"
+            android:checkable="false"
+            android:enabled="false"
+            android:orderInCategory="200"
+            android:title="" />
+    </group>
+
+
+</menu>
