@@ -16,7 +16,7 @@ It is a simple task application with an aesthetic based on Material Design, with
 ## Screenshots
 [![Grupo-1.png](https://i.postimg.cc/W4SvT0r4/Grupo-1.png)](https://postimg.cc/2qqJxb0p)
 
-### Figma initial prototypes
+### Figma initial wireframes
 [![figma.png](https://i.postimg.cc/Pxk237Np/figma.png)](https://postimg.cc/QB0QV0Qh)
 ## Author
 Enrique García
