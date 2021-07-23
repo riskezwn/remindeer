@@ -14,10 +14,10 @@ It is a simple task application with an aesthetic based on Material Design, with
 
 
 ## Screenshots
-![Grupo-1.png](https://i.postimg.cc/W4SvT0r4/Grupo-1.png)]
+![Grupo-1.png](https://i.postimg.cc/W4SvT0r4/Grupo-1.png)
 
 ### Figma initial wireframes
-[![figma.png](https://i.postimg.cc/Pxk237Np/figma.png)]
+![figma.png](https://i.postimg.cc/Pxk237Np/figma.png)
 ## Author
 Enrique García
 
